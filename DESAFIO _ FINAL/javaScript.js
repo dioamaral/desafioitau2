@@ -6,6 +6,6 @@ function Enviar() {
         var telefonecelular = document.getElementById("telefonecelularid");
 
         if (nome.value  && cpf.value  && endereco.value && numero.value && telefonecelular.value ){
-           alert("Obrigado Sr(a) " + nome.value + "Os seus dados foram encaminhados com sucesso !");
+           alert("Obrigado Sr(a) " + nome.value + ",  seus dados foram encaminhados com sucesso !");
         } 
 }

@@ -9,13 +9,14 @@
 	<script src="javaScript.js"></script>
 </head>
 
-<body background="/imagens/linkedinlogo.png">
+<body>
 	<header>
 	<form name="meuFormulario"><center><h1>Entre em contato</h1></center>
-	<a href="https://www.linkedin.com/in/diogosoriano/"><h2>Diogo Soriano</a><img id="logo1" src="imagens/linkedinlogo.png" width="20px" height="20px"></h2>
+	<a href="https://www.linkedin.com/in/diogosoriano/"><h2>Diogo Soriano</a><img src="imagens/linkedinlogo.png" width="20px" height="20px"></h2>
 	</header>
-<div class="backg">
-	<label for="nome">NOME:</label>      
+<div id="area">
+	<fieldset id="formulario">	
+	<label for="nome">NOME_SOBRENOME:</label>      
   	<input type="text" id="nomeid" placeholder="Nome Sobrenome" required="required" name="nome" /></br>
   
   <label for="cpf">CPF:</label>
@@ -31,7 +32,7 @@
 	<option value="F">Feminino</option></select></br>
 
 	<label for="endereco">ENDEREÇO:</label>
-  	<input type="text" id="foneid" placeholder="xxxxxxxxxxxxxx" required="required" name="endereco" /></br>
+  	<input type="text" id="enderecoid" placeholder="xxxxxxxxxxxxxx" required="required" name="endereco" /></br>
 
   <label for="endereco">NÚMERO:</label>
   	<input type="text" id="numeroid" placeholder="xxxx" required="required" name="numero" /></br>
@@ -45,13 +46,15 @@
   <label for="cidade">CEP:</label>
   	<input type="text" id="cepid" placeholder=" xx.xxx-xxx " name="cep" /></br>
 
-  <label for="telefonefixo">TELEFONE FIXO:</label>
+  <label for="telefonefixo">TELEFONE_FIXO:</label>
   	<input type="tel" id="telefonefixoid" placeholder=" (xx) xxxx-xxxx " name="telefonefixo" /></br>
 
-  <label for="telefonecelular">TELEFONE CELULAR:</label>
+  <label for="telefonecelular">TELEFONE_CELULAR:</label>
   	<input type="tel" id="telefonecelularid" placeholder="(xx) xxxxx-xxxx" required="required" name="telefonecelular" /></br>
   
   <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" /></br>
+  </fieldset>
+</div>
 </form>
 </body>
 
