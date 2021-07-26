@@ -1,0 +1,65 @@
+body {
+	padding: 1px, 15px;
+    margin: 1px, 1px;
+}
+ 
+img {
+	font-family: sans-serif;
+    font-size: 15px;
+    background-color: #f7a000;
+    max-width: auto;
+}
+
+form {
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: #241d1b;
+    max-width: auto;
+}
+	
+h1, h2 {
+	padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: #f7a000;
+    text-shadow: 2px 2px 5px rgb(255, 227, 227);
+}
+
+input, select {
+    width: auto;
+    padding: 10px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+	border-radius: 10px;
+    border: 2px solid;
+}
+/* animaçao de cores ao passar o mouse -- focus degrade */
+ input:hover, input:focus, select:hover, select:focus {
+	border-color: #1b04e9;
+    box-shadow: 2px 1px 10px #1b04e9;
+    background-color: #f7a000;
+    color: black;
+    font-weight: bold;
+}
+ 
+.enviar {
+    background-color: #1b04e9;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid;
+    color: black;
+}
+
+.backg {
+    src: url(/imagens/linkedinlogo.png);
+
+}
+ 
+form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
